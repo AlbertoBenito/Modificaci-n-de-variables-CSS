@@ -1,1 +1,6 @@
-
+.box{
+    position: fixed;
+    background-color: red;
+    width: var(--width);
+    height: 50px;
+}
