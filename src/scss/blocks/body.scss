@@ -2,8 +2,27 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #111;
+  background-color: var(--bg--body);
   font-family: sans-serif;
-  color: antiquewhite;
+  color: white;
   min-height: 500vh;
+}
+
+.button{
+  border: none;
+  padding: 25px 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+
+.arrow{
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  top: var(--top);
+  left: var(--left);
+}
+.px{
+  
 }
